@@ -9,8 +9,8 @@ import os
 from datetime import datetime
 
 class ExportProtectedArmatureAnimationsNLAOperator(bpy.types.Operator):
-    bl_idname = "object.export_protected_armature_animations_nla_fix5"
-    bl_label = "Export Protected Armature Animations with NLA (Fix 5)"
+    bl_idname = "object.export_protected_armature_animations_nla"
+    bl_label = "Export Protected Armature Animations with NLA"
 
     def execute(self, context):
         # Get the active armature
